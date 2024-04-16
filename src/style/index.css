@@ -1,0 +1,12 @@
+/* Index */
+
+/* Hides scrollbar for Chrome, Safari, Opera, Brave */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hides scrollbar for IE, Edge */
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
