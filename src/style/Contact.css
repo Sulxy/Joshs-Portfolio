@@ -1,0 +1,31 @@
+/* Contact */
+
+/* Contact Header */
+.contact-header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 50px;
+}
+
+/* Send Message button */
+.send-message-button {
+    background-color: #1d7fff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+/* Send Message button hover effect */
+.send-message-button:hover {
+    background-color: #06005f;
+    color: white;
+}
