@@ -15,7 +15,7 @@ function About () {
                 <Col xs={12} md={8}>
                     <Card>
                         <Card.Body>
-                            <Card.Title className="text-center md-4>">
+                            <Card.Title className="text-center md-4">
                                About Joshua Hale
                             </Card.Title>
                             <Card.Text>

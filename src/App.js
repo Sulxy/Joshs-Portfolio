@@ -15,18 +15,18 @@ import './style/App.css';
 // Create App component
 function App() {
   return (
-    <div>
+    <div className='App'>
     <Router>
       <Header />
       {/* <Navigation /> */}
       {/* <Header /> */}
         <div className="container mt-5">
             <Routes>
-                <Route path="/Joshs-Portfolio/" element={<About />} />
-                <Route path="/Joshs-Portfolio/about" element={<About />} />
-                <Route path="/Joshs-Portfolio/portfolio" element={<Portfolio />} />
-                <Route path="/Joshs-Portfolio/contact" element={<Contact />} />
-                <Route path="/Joshs-Portfolio/resume" element={<Resume />} />
+                <Route path="/" element={<About />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
             </Routes>
         </div>
         <Footer />
