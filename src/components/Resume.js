@@ -20,7 +20,7 @@ function Resume () {
                 <Row>
                     <Col>
                     <hr className='star-secondary' />
-                    <h3>Career Summary</h3>
+                    <h3><u>Career Summary</u></h3>
                         <div className='resume-item'>
                             <ul>
                                 <p>
@@ -33,9 +33,9 @@ function Resume () {
                 <Row>
                     <Col>
                         <hr className='star-secondary' />
-                        <h3>Top 3 Projects</h3>
+                        <h3><u>Top 3 Projects</u></h3>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-Social-Network-API' target='_blank' rel='nonreferrer'>Social Network API</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-Social-Network-API'>Social Network API</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | JavaScript | Express | Mongoose | MongoDB | Insomnia </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
@@ -43,7 +43,7 @@ function Resume () {
                                 </ul>
                             </div>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-Backend-for-E-Commerce' target='_blank' rel='nonreferrer'>Backend for E-Commerce</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-Backend-for-E-Commerce'>Backend for E-Commerce</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | Javascript | Express | MySQL | Sequelize | Insomnia </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
@@ -51,7 +51,7 @@ function Resume () {
                                 </ul>
                             </div>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-SQL-Employee-Tracker' target='_blank' rel='nonreferrer'>SQL Employee Tracker</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-SQL-Employee-Tracker'>SQL Employee Tracker</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | Javascript | Inquirer | MySQL </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
@@ -64,7 +64,7 @@ function Resume () {
                 <Row>
                     <Col>
                         <hr className='star-secondary' />
-                        <h3>Full Stack Development</h3>
+                        <h3><u>Full Stack Development</u></h3>
                         <ul className='list-inline'>
                             <li className='list-inline-item'><strong>Languages:</strong>HTML, CSS, JS</li>
                             <li className='list-inline-item'><strong>Libraries and Frameworks:</strong>Bootstrap, jQuery, React, Express, Node.js, Express.js, Handlebars, Sequelize.js</li>
@@ -81,7 +81,7 @@ function Resume () {
                 <Row>
                     <Col>
                         <hr className='star-secondary' />
-                        <h3>Education</h3>
+                        <h3><u>Education</u></h3>
                         <div className='resume-item'>
                             <h4>Full Stack Development Coding Bootcamp</h4>
                             <ul>

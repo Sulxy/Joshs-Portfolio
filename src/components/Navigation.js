@@ -9,13 +9,12 @@ const Navigation = () => {
         //Bootstrap
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="py-0.5 mt-0">
             <Container> 
-                <Navbar.Brand as={Link} to='/Joshs-Portfolio/'>Joshua Hale</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/About'></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        {/* <Nav.Link as={Link} to='/Joshs-Portfolio/home' className="fs-5">Home</Nav.Link> */}
-                        <Nav.Link as={Link} to='/home' className="fs-5 nav-link-highlight shadow-lg">About Me</Nav.Link>
-                        <Nav.Link as={Link} to='/about' className="fs-5 nav-link-highlight shadow-lg">Portfolio</Nav.Link>
+                        <Nav.Link as={Link} to='/About' className="fs-5 nav-link-highlight shadow-lg">About Me</Nav.Link>
+                        <Nav.Link as={Link} to='/Portfolio' className="fs-5 nav-link-highlight shadow-lg">Portfolio</Nav.Link>
                         <Nav.Link as={Link} to='/contact' className="fs-5 nav-link-highlight shadow-lg">Contact</Nav.Link>
                         <Nav.Link as={Link} to='/resume' className="fs-5 nav-link-highlight shadow-lg">Resume</Nav.Link>
                     </Nav>
