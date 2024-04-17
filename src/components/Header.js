@@ -15,7 +15,7 @@ function Header() {
                 <Col className="pb-0">
                     <h1 className='text-white' style={{ fontSize: '70px' }}>
                         <FontAwesomeIcon icon={faCode} className="fa-knight" size="xl" style={{ color: "#white" }}/>
-                        <Link to="/Joshs-Portfolio/" className="text-white text-decoration-none" style={{ margin: '0' }}> Joshua Hale </Link>
+                        <Link to="/About/" className="text-white text-decoration-none" style={{ margin: '0' }}> Joshua Hale </Link>
                         <FontAwesomeIcon icon={faCode} className="fa-knight" size="xl" style={{ color: "#white" }}/>
                     </h1>
                 </Col>
