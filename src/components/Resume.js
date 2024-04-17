@@ -35,7 +35,7 @@ function Resume () {
                         <hr className='star-secondary' />
                         <h3>Top 3 Projects</h3>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-Social-Network-API' target='_blank'>Social Network API</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-Social-Network-API' target='_blank' rel='nonreferrer'>Social Network API</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | JavaScript | Express | Mongoose | MongoDB | Insomnia </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
@@ -43,7 +43,7 @@ function Resume () {
                                 </ul>
                             </div>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-Backend-for-E-Commerce' target='_blank'>Backend for E-Commerce</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-Backend-for-E-Commerce' target='_blank' rel='nonreferrer'>Backend for E-Commerce</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | Javascript | Express | MySQL | Sequelize | Insomnia </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
@@ -51,7 +51,7 @@ function Resume () {
                                 </ul>
                             </div>
                             <div className='resume-item'>
-                            <h4><a href='https://github.com/Sulxy/Joshs-SQL-Employee-Tracker' target='_blank'>SQL Employee Tracker</a></h4>
+                            <h4><a href='https://github.com/Sulxy/Joshs-SQL-Employee-Tracker' target='_blank' rel='nonreferrer'>SQL Employee Tracker</a></h4>
                                 <ul>
                                     <li><strong>Technology:</strong> Github | Javascript | Inquirer | MySQL </li>
                                     <li>Demonstrated functionality on YouTube -- video attached in the Github README.</li>
