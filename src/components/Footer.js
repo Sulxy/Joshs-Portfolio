@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import '../styles/Footer.css';
+import '../style/Footer.css';
 
 // Socials
 const socialIcons = [

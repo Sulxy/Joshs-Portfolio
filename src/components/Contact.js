@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import '../styles/Contact.css';
+import '../style/Contact.css';
 
 function Contact () {
     // State variables for form inputs
