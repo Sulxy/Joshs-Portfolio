@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project';
 import HungieBois from '../images/Hungie-Bois.png';
 import WeatherDashboard from '../images/Weather-Dashboard.png';
 import Scheduler from '../images/Scheduler.png';
