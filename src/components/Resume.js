@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../style/Resume.css';
-import Resume from '../documentation/Joshua-Hale-Resume.pdf';
+import PDF from '../documentation/Joshua-Hale-Resume.pdf';
 
 // Resume
 function Resume () {
@@ -12,7 +12,7 @@ function Resume () {
                     <Col className='text-center'>
                         <h1>Resume</h1>
                         <hr className='star-primary' />
-                        <Button variant='dark' href={Resume} download>
+                        <Button variant='dark' href={PDF} download>
                             Download Resume
                         </Button>
                     </Col>

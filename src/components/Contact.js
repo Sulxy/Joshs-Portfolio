@@ -61,7 +61,7 @@ function Contact () {
         // If form is valid, send message
         if (valid) {
             console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-            setname('');
+            setName('');
             setEmail('');
             setMessage('');
             setMessageSent(true);

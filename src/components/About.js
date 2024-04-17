@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
-import photo from '../images/photo.jpg';
+import photo from '../images/JoshandJayce.jpg';
 import '../style/About.css';
 
 function About () {
