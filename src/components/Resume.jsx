@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../style/Resume.css';
-import PDF from '../documentation/Joshua-Hale-Resume.pdf';
+import PDF from '../documentation/Joshua-Hale.pdf';
 
 // Resume
 function Resume () {
@@ -33,7 +33,15 @@ function Resume () {
                 <Row>
                     <Col>
                         <hr className='star-secondary' />
-                        <h3><u>Top 3 Projects</u></h3>
+                        <h3><u>Top Projects</u></h3>
+                            <div className='resume-item'>
+                            <h4><a href='https://github.com/Sulxy/Whisper'>Chatroom</a></h4>
+                                <ul>
+                                    <li><strong>Technology:</strong> Github | JavaScript | Express | Mongoose | MongoDB | GraphQL </li>
+                                    <li>Login/Register a User, and participate in an online chatroom.</li>
+                                    <li>Full-Stack Application that uses various technologies to achieve its' functionality.</li>
+                                </ul>
+                            </div>
                             <div className='resume-item'>
                             <h4><a href='https://github.com/Sulxy/Joshs-Social-Network-API'>Social Network API</a></h4>
                                 <ul>
@@ -70,9 +78,9 @@ function Resume () {
                             <li className='list-inline-item'><strong>Libraries and Frameworks:</strong>Bootstrap, jQuery, React, Express, Node.js, Express.js, Handlebars, Sequelize.js</li>
                             <li className='list-inline-item'><strong>Databases:</strong>MySQL, MongoDB, NoSQL</li>
                             <li className='list-inline-item'><strong>Tools:</strong>Git, GitHub, Heroku, Insomnia, Heroku, Render, Microsoft Office Suite, MongoDB Compass, NPM</li>
-                            <li className='list-inline-item'><strong>Methodologies:</strong>Agile, Scrum, Kanban</li>
-                            <li className='list-inline-item'><strong>Testing:</strong>Jest, Insomnia</li>
-                            <li className='list-inline-item'><strong>Deployment:</strong>Heroku, GitHub Pages, Render</li>
+                            <li className='list-inline-item'><strong>Methodologies:</strong>Agile, Scrum, Kanban, MVC, MERN</li>
+                            <li className='list-inline-item'><strong>Testing:</strong>Jest, Insomnia, GraphQL</li>
+                            <li className='list-inline-item'><strong>Deployment:</strong>Heroku, GitHub Pages, Render, Netlify</li>
                             <li className='list-inline-item'><strong>Operating Systems:</strong> Windows, Android, iOS, Ubuntu</li>
                             <li className='list-inline-item'><strong>Skills:</strong>Basic Soldering, Hardware Knowledge, Hardware Troubleshooting, Inventory Management, Time Management, Organization, Attention to Detail</li>
                         </ul>

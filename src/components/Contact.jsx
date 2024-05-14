@@ -76,8 +76,8 @@ function Contact () {
                     <Col lg={8} className='mx-auto'>
                         <h2 className='contact-header'>Contact Me</h2>
                             <p className='email-direct'>
-                                This functionality is being built still. 
-                                <a href='mailto:Joshuahale829@gmail.com' style={{marginLeft: '5px'}}>Please email me directly</a>
+                                This functionality is being built still; Please email me directly at
+                                <a href='mailto:Joshuahale829@gmail.com' style={{marginLeft: '5px'}}>Joshuahale829@gmail.com</a>
                             </p>
                         {messageSent && (
                             <div className='alert alert-success' role='alert'>
