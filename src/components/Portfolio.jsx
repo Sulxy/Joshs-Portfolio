@@ -4,7 +4,7 @@ import HungieBois from '../images/Hungie-Bois.png';
 import WeatherDashboard from '../images/Weather-Dashboard.png';
 import Scheduler from '../images/Scheduler.png';
 import jate from '../images/JATE.png';
-import jsQuiz from '../images/JS-Quiz.png';
+import Whisper from '../images/Whisper.png';
 import TechBlog from '../images/Tech-Blog.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Portfolio.css';
@@ -47,11 +47,11 @@ function Portfolio() {
                             githubLink: "https://github.com/Sulxy/Joshs-Scheduler",
                         },
                         {
-                            title: "JS Quiz",
-                            description: "Test your JavaScript knowledge!",
-                            imgSrc: jsQuiz,
-                            deployedLink: "https://sulxy.github.io/Joshs-JS-Quiz/",
-                            githubLink: "https://github.com/Sulxy/Joshs-JS-Quiz/",
+                            title: "Whisper",
+                            description: "Please wait while this project loads! (~1minute)",
+                            imgSrc: Whisper,
+                            deployedLink: "https://whisper-o7m0.onrender.com/",
+                            githubLink: "https://github.com/Sulxy/Whisper",
                         },
                         {
                             title: "Tech Blog",
